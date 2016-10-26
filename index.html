@@ -5,6 +5,7 @@
 	<meta charset="utf-8" />
 
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="Style/font-awesome/css/font-awesome.min.css">
 
     <style>
             
@@ -12,6 +13,15 @@
         background-image: url("Img/testAfbeelding.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        text-align: center;   
     }
 
     ul.topnav {
@@ -64,16 +74,48 @@
     text-align: left;
   }
 }
+    
+    
+    .column-layout {
+        max-width: 1000px;
+        background-color: #FFF;
+        margin: 40px auto 0 auto;
+        line-height: 1.65;
+        padding: 20px 50px;
+        display: flex;
+    }
+
+    .main-column {
+        flex: 1;
+        order: 1;
+        margin-right: 200px;
+    }
+
+ 
+    .sidebar-two {
+        flex: 1;
+        order: 2;
+    }
+    
+    .center {
+        text-align: center;
+    }
+
+     .img-circle {
+        border-radius: 50%;
+    }
     </style>
+
+
 
 </head>
 <body>
 
     <ul class="topnav" id="myTopnav">
         <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#news">Taken</a></li>
+        <li><a href="#contact">Over</a></li>
+        <li><a href="#about">Contact</a></li>
         <li class="icon">
             <a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
         </li>
@@ -90,6 +132,33 @@
     }
 }
     </script>
+
+    <div class="column-layout">
+        <div class="main-column">
+            <h2 class="center">GIP Website</h2>
+            <p>Welkom op mijn GIP website!</p>
+            <p>Deze website is momenteel onder constructie, later wordt deze meer aangevuld.</p>
+            <p>Nulla nec ipsum vitae erat aliquam ornare. Suspendisse vitae justo non arcu fermentum tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur congue, ex et eleifend accumsan, purus tortor vulputate augue, a finibus nisl nisi ac arcu. Nunc a volutpat nunc. Vivamus leo enim, varius vitae turpis in, consequat aliquam libero. Donec at commodo metus.</p>
+            
+        </div>
+        <div class="sidebar-two">
+            <h3>Info</h3>
+            <div>
+                <img class="img-circle" src="Img/profielfoto.png">
+            </div>
+            <p>Naam: Wout Peeters</p>
+            <p>Richting: IT en Netwerken</p>
+            <p>School: Immaculata Instituut</p>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+
+        <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+    </footer>
 
 </body>
 </html>
