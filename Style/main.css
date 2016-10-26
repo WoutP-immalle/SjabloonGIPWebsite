@@ -92,3 +92,11 @@
      .img-circle {
         border-radius: 50%;
     }
+
+     .beschrijving {
+         font-family: 'Roboto', sans-serif;
+     }
+
+     .titel {
+         font-family: 'Wendy One', sans-serif;
+     }
