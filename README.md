@@ -69,4 +69,10 @@ Deze media querie zorgt ervoor dat de "responsive" class wordt toegevoegd wannee
 
 de functie toggleMenu veranderd de klasnaam met responsive erbij of niet, zodat het menu uitgeschoven kan worden op kleine schermen.
 
+## Welkomsbericht met flexbox
 
+De class column-layout is een div waarin 2 andere divs zitten, main-column en sidebar-two.
+
+Bij de opmaak kan je de breedte van de div kiezen, de kleur, margin, ... de display: flex typ je als e flexbox wilt gebruiken.
+
+Daarna kan je in de andere div's bij opmaak flex: 1 typen. De 1 is dan plaats gebruiken voor het object, als je 2 neemt neemt bv de tekst dubbel zo veel plaats in beslag. De order: 1 is in welke volgorde de divs horizontaal komen.
