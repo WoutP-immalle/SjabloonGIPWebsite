@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GIP Website</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Style/main.css" />
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="Style/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+
+</head>
+<body>
+
+    <ul class="topnav" id="myTopnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="taken.html">Taken</a></li>
+        <li><a href="#over">Over</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+        </li>
+    </ul>
+
+    <script>
+
+    function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+    </script>
+
+
+
+    <footer class="footer">
+
+        <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+    </footer>
+
+</body>
+</html>
