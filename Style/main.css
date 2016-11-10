@@ -89,7 +89,6 @@
     .center {
         text-align: center;
     }
-
      .img-circle {
         border-radius: 50%;
     }
@@ -120,4 +119,10 @@
          background-color: #FFF;
          border-style: solid;
          margin-bottom: 80px;
+         overflow: hidden;
+
      }
+.margin-fixed-size {
+    margin: 20px;
+    
+    }
