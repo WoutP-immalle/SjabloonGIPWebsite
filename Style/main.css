@@ -122,7 +122,21 @@
          overflow: hidden;
 
      }
-.margin-fixed-size {
-    margin: 20px;
+      .margin-fixed-size {
+         margin: 20px;
     
     }
+
+      .img-size {
+          max-height: 50%;
+          max-width: 50%;
+          display: block;
+          margin: 0 auto;
+      }
+
+       .beschrijving-taken {
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+     }
+
+       
