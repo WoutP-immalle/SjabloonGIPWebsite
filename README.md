@@ -78,3 +78,13 @@ De class column-layout is een div waarin 2 andere divs zitten, main-column en si
 Bij de opmaak kan je de breedte van de div kiezen, de kleur, margin, ... de `display: flex` typ je als e flexbox wilt gebruiken.
 
 Daarna kan je in de andere div's bij opmaak `flex: 1` typen. De 1 is dan plaats gebruiken voor het object, als je 2 neemt neemt bv de tekst dubbel zo veel plaats in beslag. De `order: 1` is in welke volgorde de divs horizontaal komen.
+
+## Webpagina Taken
+
+Hier heb ik met flexbox responsive boxes gemaakt waarin ik een preview van taken kan zetten. Achteraf wil ik de mogelijkheid toevoegen om erop te klikken en dan de taak groter weer te geven, of naar een nieuwe pagina met de taak op te gaan.
+
+## Webpagina Stage
+
+Hier komen al mijn stage verslagen, een beetje op dezelfde methode als bij de webpagina taken. Over kleuren en opmaak ben ik nog niet helemaal uit.
+
+Meestal komt er een afbeelding en dan wat beschrijving.
