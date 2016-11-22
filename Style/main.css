@@ -38,6 +38,10 @@
 
     ul.topnav li.icon {display: none;}
 
+.navHighlight {
+    background-color: #555;
+}
+
 
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
