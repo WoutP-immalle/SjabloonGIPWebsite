@@ -126,6 +126,16 @@
          overflow: hidden;
 
      }
+
+
+     .expand {
+         width: 1250px;
+         height: 2000px;
+         background-color: #FFF;
+         border-style: solid;
+         margin-bottom: 80px;
+         overflow: hidden;
+     }
       .margin-fixed-size {
          margin: 20px;
     
@@ -163,4 +173,19 @@
          margin-bottom: 80px;
          overflow: hidden;
 
+     }
+
+     .taakPagina {
+         margin-bottom: 50px;
+         margin-left: 100px;
+         margin-right: 100px;
+         font-size: 20px;
+         line-height: 150%;
+     }
+
+     .fotoTaak1 {
+         width: 600px;
+         height: 800px;
+         margin-left: 325px;
+         
      }
