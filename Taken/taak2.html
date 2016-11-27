@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>GIP Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../Style/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../Style/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <ul class="topnav" id="myTopnav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../taken.html">Taken</a></li>
+        <li><a href="../stage.html">Stage</a></li>
+        <li><a href="#about">Contact</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+        </li>
+    </ul>
+    <script>
+
+    function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+    </script>
+
+    <div class="fixed-size-container">
+        <div class="expand-taak2">
+         <h1 class="center"><b>IT Profile</b></h1>
+            <div class="container">
+                <h2>HTML</h2>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        70%
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>CSS</h2>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        70%
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>Javascript</h2>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                        60%
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>C#</h2>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                        50%
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>Command Line</h2>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                        30%
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>Hardware</h2>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        80%
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="taak2Beschrijving-header">Wat heb ik tot nu toe al gerealiseerd in IT?</h2>
+            <p class="taak2Beschrijving-paragraph">Ik heb al meerdere computers gebouwd. De eerste computer die ik gebouwd had was mijn persoonlijke computer. Ondertussen heb ik al computers voor vrienden, familie en buren gebouwd.
+De ene al wat geavanceerder met waterkoeling dan de andere. Mijn kennis over computer hardware is redelijk ruim. Ik zorg ervoor dat ik altijd mee ben met de nieuwste hardware, en upgrade regelmatig mijn eigen computer met nieuwere onderdelen.
+</p>
+
+            <h2 class="taak2Beschrijving-header">Gerealiseerde Projecten</h2>
+            <p class="taak2Beschrijving-paragraph">Vorig jaar voor de opendeurdag een 2D Platformer spel gemaakt met de game engine Unity. Het spel is geschreven in C# en de levels ontworpen met Tiled. De assets die ik gebruikt had waren copyright free van een professionele designer.</p>
+            <ul>
+                <li class="taak2Beschrijving-paragraph"><a href="https://github.com/WoutP-immalle/2D-Platformer">2D Platformer </a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

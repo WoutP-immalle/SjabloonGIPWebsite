@@ -128,7 +128,7 @@
      }
 
 
-     .expand {
+     .expand-taak1 {
          width: 1250px;
          height: 2000px;
          background-color: #FFF;
@@ -188,4 +188,25 @@
          height: 800px;
          margin-left: 325px;
          
+     }
+
+     .expand-taak2 {
+         width: 1250px;
+         height: auto;
+         background-color: #FFF;
+         border-style: solid;
+         margin-bottom: 80px;
+         overflow: hidden;
+     }
+
+     .taak2Beschrijving-header {
+         padding-left: 15px;
+         margin: 36px;
+
+     }
+
+     .taak2Beschrijving-paragraph {
+         padding-left: 15px;
+         margin: 36px;
+         font-size: large;
      }
