@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+    <html>
+    <head>
+        <title>GIP Website</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="../Style/main.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../Style/font-awesome/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+    </head>
+    <body>
+        <ul class="topnav" id="myTopnav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../taken.html">Taken</a></li>
+            <li><a href="../stage.html">Stage</a></li>
+            <li><a href="#about">Contact</a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+            </li>
+        </ul>
+        <script>
+
+    function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+        </script>
+
+        <div class="fixed-size-container">
+            <div class="expand-taak3">
+                <h1 class="center">IT-TAPA</h1>
+                    <video class="taak3Video" controls>
+                        <source src="https://e0d1.wpc.azureedge.net/80E0D1/OfficeMixProdMediaBlobStorage/asset-95a9e59c-a443-4bb6-a37b-f7a1cd7ac691/ec57535a48fc43ed99211ac1d9e68b69.mp4?sv=2012-02-12&amp;sr=c&amp;si=f80ffd6c-ed4e-447d-a4d4-405be8366b80&amp;sig=hDBsmW60Ocop5qZjcli373lORjwDeP59Tk0K4O0mjKA%3D&amp;se=2116-10-16T21:06:45Z&amp;rscd=attachment%3B%20filename%3DITtapaOfficeMixOffice365PowerPointversie2.mp4" type="video/mp4">
+                    </video>
+                <h2 class="links">Groepsleden: <a href="https://jelles-immalle.github.io/">Jelle Swaelen</a> en <a href="https://arnevdl-immalle.github.io/gip/">Arne</a></h2>
+
+                </div>
+        </div>
+
+    </body>
+</html>
+

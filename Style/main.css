@@ -210,3 +210,24 @@
          margin: 36px;
          font-size: large;
      }
+
+     .taak3Video {
+         align-content: center;
+         width: 1250px;
+         height: 720px;
+         border-top: solid;
+         border-bottom: solid;
+     }
+
+     .links {
+         padding: 15px;
+     }
+
+     .expand-taak3 {
+         width: 1250px;
+         height: auto;
+         background-color: #FFF;
+         border-style: solid;
+         margin-bottom: 80px;
+         overflow: hidden;
+     }
