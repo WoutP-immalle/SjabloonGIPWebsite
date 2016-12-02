@@ -3,6 +3,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0px;
+        
     }
 
     .footer {
@@ -277,6 +278,27 @@
          padding-bottom: 10px;
      }
 
+     .expand-taak4 {
+         width: 1250px;
+         height: auto;
+         background-color: #FFF;
+         border-style: solid;
+         margin-bottom: 80px;
+         overflow: hidden;
+         font-family: 'Droid Sans', sans-serif;
+         
+     }
+
+     .zelfevaluatie {
+         display:block;
+         margin:auto;
+     }
+
+     table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 0 auto;
+}
           @media screen and (max-width:900px){
          .column-layout{
              margin-left: 5px;
@@ -322,5 +344,9 @@
              background-repeat: repeat-y;
          }
 
+         .zelfevaluatie {
+             display:initial;
+             max-width: 125%;
+         }
          
      }
