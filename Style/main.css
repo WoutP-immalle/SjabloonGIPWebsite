@@ -234,6 +234,8 @@
 
      .links {
          padding: 15px;
+         border-bottom: solid;
+         padding-bottom: 20px;
      }
 
      .expand-taak3 {
@@ -243,6 +245,12 @@
          border-style: solid;
          margin-bottom: 80px;
          overflow: hidden;
+     }
+
+     .faq-tekst {
+         margin: 15px;
+         font-size: large;
+         padding-bottom: 10px;
      }
 
           @media screen and (max-width:900px){
