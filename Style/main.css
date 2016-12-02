@@ -39,6 +39,7 @@
         padding: 0;
         overflow: hidden;
         background-color: #333;
+        font-family: 'Droid Sans', sans-serif;
     }
 
     ul.topnav li {float: left;}
@@ -107,6 +108,7 @@
     .sidebar-two {
         flex: 1;
         order: 2;
+        font-family: 'Droid Sans', sans-serif;
     }
     
     .center {
@@ -117,7 +119,7 @@
     }
 
      .beschrijving {
-         font-family: 'Roboto', sans-serif;
+         font-family: 'Droid Sans', sans-serif;
      }
 
      .titel {
@@ -143,7 +145,7 @@
          border-style: solid;
          margin-bottom: 80px;
          overflow: hidden;
-
+         font-family: 'Droid Sans', sans-serif;
      }
 
 
@@ -154,6 +156,7 @@
          border-style: solid;
          margin-bottom: 80px;
          overflow: hidden;
+         font-family: 'Droid Sans', sans-serif;
      }
       .margin-fixed-size {
          margin: 20px;
@@ -168,7 +171,7 @@
       }
 
        .beschrijving-taken {
-          font-family: 'Roboto', sans-serif;
+          font-family: 'Droid Sans', sans-serif;
           text-align: center;
      }
 
@@ -191,7 +194,7 @@
          border-style: solid;
          margin-bottom: 80px;
          overflow: hidden;
-
+         font-family: 'Droid Sans', sans-serif;
      }
 
      .taakPagina {
@@ -229,6 +232,7 @@
          border-style: solid;
          margin-bottom: 80px;
          overflow: hidden;
+
      }
 
      .taak2Beschrijving-header {
@@ -264,6 +268,7 @@
          border-style: solid;
          margin-bottom: 80px;
          overflow: hidden;
+         font-family: 'Droid Sans', sans-serif;
      }
 
      .faq-tekst {
