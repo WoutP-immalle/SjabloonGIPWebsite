@@ -88,3 +88,32 @@ Hier heb ik met flexbox responsive boxes gemaakt waarin ik een preview van taken
 Hier komen al mijn stage verslagen, een beetje op dezelfde methode als bij de webpagina taken. Over kleuren en opmaak ben ik nog niet helemaal uit.
 
 Meestal komt er een afbeelding en dan wat beschrijving.
+
+## 2016-11-23
+
++ Systeem om taken in te voegen
++ IT-autobiography toegevoegd
+
+## 2016-11-27
+
++ IT-Profile toegevoegd
+
++ IT-Tapa video toegevoegd
+
+## 2016-11-30
+
++ Contact menu verwijderd
+
+## 2016-12-01
+
++ Website responsief gemaakt voor mobiele apparaten
+
+## 2016-12-02
+
++ Preview afbeeldingen voor taken
++ Welkomswoord toegevoegd
++ FAQ bij IT-Tapa toegevoegd
++ Favicon
++ Footer
++ Font aangepast
++ Zelfevaluatie toegevoegd
