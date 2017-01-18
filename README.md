@@ -117,3 +117,8 @@ Meestal komt er een afbeelding en dan wat beschrijving.
 + Footer
 + Font aangepast
 + Zelfevaluatie toegevoegd
+
+## 2017-01-18
+
+Tekst van stageverslagen dag 1 en 2 toegevoegd.
+Opmaak en afbeeldingen komen later nog.
