@@ -307,6 +307,17 @@
          
      }
 
+.expand-taak5 {
+    width: 750px;
+    height: 1200px;
+    background-color: #FFF;
+    border-style: solid;
+    margin-bottom: 80px;
+    overflow: hidden;
+    font-family: 'Droid Sans', sans-serif;
+    margin: auto;
+}
+
      .zelfevaluatie {
          display:block;
          margin:auto;
