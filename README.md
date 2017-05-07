@@ -122,3 +122,8 @@ Meestal komt er een afbeelding en dan wat beschrijving.
 
 Tekst van stageverslagen dag 1 en 2 toegevoegd.
 Opmaak en afbeeldingen komen later nog.
+
+## 2017-05-07
+
++ Foto's stage verder toegevoegd.
++ GIP taak: a review toegevoegd.
