@@ -236,6 +236,8 @@
          flex-wrap: wrap;
      }
 
+
+
      .fotoTaak1 {
          width: 600px;
          height: 800px;
@@ -317,6 +319,17 @@
     font-family: 'Droid Sans', sans-serif;
     margin: auto;
 }
+
+     .fixed-size-container-taak7  {
+         max-height: initial;
+         max-width: 2000px;
+         margin: 40px auto 0 auto;
+         padding: 30px 0;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         flex-wrap: wrap;
+     }
 
      .zelfevaluatie {
          display:block;
