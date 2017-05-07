@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>GIP Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="../Img/favicon2.ico">
+    <link href="../Style/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../Style/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+</head>
+<body>
+    <ul class="topnav" id="myTopnav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../taken.html">Taken</a></li>
+        <li><a href="../stage.html">Stage</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+        </li>
+    </ul>
+    <script>
+
+    function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+    </script>
+
+    <div class="fixed-size-container-taak1">
+        <div class="expand-taak1">
+            <h1 class="center">My review of the Ultimaker 3</h1>
+            <p class="taakPagina">The Ultimaker 3, a professional 3D printer. Everyone has heard of them by now: the invention that is able to print your own creations in 3 dimensions. But what makes this printer so different from other 3D printers? Well you are about to found out!</p>
+            <p class="taakPagina">My training company used the printer in the front of the store, to impress the customers. And they succeeded, this device attracts a lot of attention. They used it mainly to fabricate little hangers, phone holders, replacement parts, … But it does not end there, they also printed little statues and figures to showcase the printer and of course to sell it. It is very handy when you need a certain part but you cannot find it anywhere, so you just print out your own part.</p>
+            <p class="taakPagina">The company behind the Ultimaker 3 is a Dutch company named Ultimaker based in the Netherlands. They originated from the Netherlands but do have an office in the United States as well. It was developed for companies and hobbyists, it is not targeted for the average person because of the price. </p>
+            <p class="taakPagina">The Ultimaker 3 does have a lot of competition. 3D printing is becoming a trend and manufacturers keep producing new printers. For example, Delta Rocket 3D Pro, the other 3D printer I worked with during my internship. The Delta Rocket is a printer made in Belgium for around the same price. However, there is a 3D printer in almost every price range and they keep getting more affordable and better. Although the cheaper the price the less quality your print has. You can find a 3D printer as cheap as 100 euros to as expensive as a couple of thousand euros. Industrial grade ones will even have a price tag of 6 digits.</p>
+            <p class="taakPagina">So how does it work? The printer has an extruder head and a bed. The extruder melts down the filament so it can flow. Filament is the material you print in, like ABS and PLA, which are plastics. But it is also possible to print something out of metal and carbon fibre with more expensive printers. The extruder will print down your print in layers on the bed. Each layer hardens so the next layer can be applied on top of it. It basically follows coordinates which the slicing software has calculated for you. You use a slicer to edit the settings of your printer and decide how your printer should print the model. Then you put the file on an SD card and your printer will print out everything stored on the SD card.</p>
+            <p class="taakPagina">As Richard Baguley states at tomsguide.com, the positive features are excellent printing quality, support for a range of materials and excellent software. I definitely agree with those statements. The printer has a sleek design, easy to use but still a lot of features available and big enough to print large objects. It comes with a dual material support and a camera for monitoring prints in progress, which is something not often seen on other 3D printers. Richard has explained the features well and detailed, I can agree with all his statements. He begins his review with a table showing the good and the bad along with its price and overall rating. </p>
+            <p class="taakPagina">Like most products there are some negative things too. The two major negative things are the price and the speed of the printer, it is quite slow as Richard explained. It comes at a price of $3,495 which is definitely not cheap, but if you consider all the features it is worth its price.</p>
+            <p class="taakPagina">So overall I would recommend this 3D printer for pure hobbyists and companies that need a good 3D printer for basic to complex prints. Despite the fact that it is a little bit slow and expensive, you do get excellent print quality. For the average user I would suggest a less expensive printer.</p>
+            <p class="taakPagina">Link to Richard Baguley's review: <a href="http://www.tomsguide.com/us/ultimaker-3-3d-printer,review-4131.html" target="_blank">http://www.tomsguide.com/us/ultimaker-3-3d-printer,review-4131.html</a></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <i class="fa fa-github fa-3x" aria-hidden="true" style="cursor: pointer;" onclick="window.location = 'https://github.com/WoutP-immalle/woutp-immalle.github.io';"></i>
+    </footer>
+
+</body>
+</html>
