@@ -390,5 +390,9 @@
              display:initial;
              max-width: 125%;
          }
+
+         .footer {
+             display: none;
+         }
          
      }
