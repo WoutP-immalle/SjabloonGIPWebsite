@@ -322,7 +322,7 @@
 
      .fixed-size-container-taak7  {
          max-height: initial;
-         max-width: 2000px;
+         max-width: 125em;
          margin: 40px auto 0 auto;
          padding: 30px 0;
          display: flex;
