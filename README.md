@@ -120,10 +120,17 @@ Meestal komt er een afbeelding en dan wat beschrijving.
 
 ## 2017-01-18
 
-Tekst van stageverslagen dag 1 en 2 toegevoegd.
-Opmaak en afbeeldingen komen later nog.
+Tekst van stageverslagen dag 1 en 2 toegevoegd
+Opmaak en afbeeldingen komen later nog
 
 ## 2017-05-07
 
-+ Foto's stage verder toegevoegd.
-+ GIP taak: a review toegevoegd.
++ Foto's stage verder toegevoegd
++ GIP taak: a review toegevoegd
++ GIP taak: reportage photos du stage toegevoegd
++ Footer fix voor mobiele apparaten
+
+## 2017-05-09
+
++ Link naar Github repository van mijn webapp toegevoegd
+
