@@ -1,7 +1,7 @@
     body {
         background-image: url("../Img/testAfbeelding.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+        /*background-size: cover;*/
+        background-repeat: repeat;
         margin: 0px;
         
     }
@@ -91,7 +91,7 @@
     
     
     .column-layout {
-        max-width: 1000px;
+        max-width: 62.5em;
         background-color: #FFF;
         margin: 40px auto 0 auto;
         line-height: 1.65;
@@ -102,7 +102,7 @@
     .main-column {
         flex: 1;
         order: 1;
-        margin-right: 200px;
+        margin-right: 12.5em;
     }
 
  
@@ -128,8 +128,8 @@
      }
 
      .fixed-size-container {
-         max-height: 2000px;
-         max-width: 1250px;
+         max-height: 125em;
+         max-width: 78.125em;
          margin: 40px auto 0 auto;
          padding: 30px 0;
          display: flex;
@@ -139,19 +139,19 @@
      }
 
      .fixed-size {
-         width: 350px;
-         max-width: 350px;
-         height: 300px;
+         width: 21.875em;
+         max-width: 21.875em;
+         height: 18.75em;
          background-color: #FFF;
          border-style: solid;
-         margin-bottom: 80px;
+         margin-bottom: 5em;
          overflow: hidden;
          font-family: 'Droid Sans', sans-serif;
      }
 
 
      .expand-taak1 {
-         width: 1250px;
+         width: 78.125em;
          height: auto;
          background-color: #FFF;
          border-style: solid;
@@ -181,8 +181,8 @@
      }
 
      .fixed-size-container-stage {
-         max-height: 4000px;
-         max-width: 1750px;
+         max-height: 250em;
+         max-width: 109.375em;
          margin: 40px auto 0 auto;
          padding: 30px 0;
          display: flex;
@@ -192,12 +192,12 @@
      }
 
      .fixed-size-stage {
-         width: 650px;
-         max-width: 650px;
-         height: 685px;
+         width: 40.625em;
+         max-width: 40.625em;
+         height: 42.8125em;
          background-color: #FFF;
          border-style: solid;
-         margin-bottom: 80px;
+         margin-bottom: 5em;
          overflow: hidden;
          font-size: 20px;
          font-family: 'Droid Sans', sans-serif;
@@ -217,9 +217,9 @@
 }
 
      .taakPagina {
-         margin-bottom: 50px;
-         margin-left: 100px;
-         margin-right: 100px;
+         margin-bottom: 2.5em;
+         margin-left: 5em;
+         margin-right: 5em;
          font-size: 20px;
          line-height: 150%;
      }
@@ -227,7 +227,7 @@
      
      .fixed-size-container-taak1  {
          max-height: initial;
-         max-width: 1250px;
+         max-width: 78.125em;
          margin: 40px auto 0 auto;
          padding: 30px 0;
          display: flex;
@@ -239,26 +239,26 @@
 
 
      .fotoTaak1 {
-         width: 600px;
-         height: 800px;
-         margin-left: 325px;
-         padding-bottom: 40px;
+         width: 37.5em;
+         height: 50em;
+         margin-left: 20.3125em;
+         padding-bottom: 2.5em;
          
      }
 
      .expand-taak2 {
-         width: 1250px;
+         width: 78.125em;
          height: auto;
          background-color: #FFF;
          border-style: solid;
-         margin-bottom: 80px;
+         margin-bottom: 5em;
          overflow: hidden;
 
      }
 
      .taak2Beschrijving-header {
-         padding-left: 15px;
-         margin: 36px;
+         padding-left: 0.9375em;
+         margin: 2.25em;
 
      }
 
@@ -270,8 +270,8 @@
 
      .taak3Video {
          align-content: center;
-         width: 1250px;
-         height: 720px;
+         width: 78.125em;
+         height: 45em;
          border-top: solid;
          border-bottom: solid;
      }
@@ -283,11 +283,11 @@
      }
 
      .expand-taak3 {
-         width: 1250px;
+         width: 78.125em;
          height: auto;
          background-color: #FFF;
          border-style: solid;
-         margin-bottom: 80px;
+         margin-bottom: 5em;
          overflow: hidden;
          font-family: 'Droid Sans', sans-serif;
      }
@@ -299,11 +299,11 @@
      }
 
      .expand-taak4 {
-         width: 1250px;
+         width: 78.125em;
          height: auto;
          background-color: #FFF;
          border-style: solid;
-         margin-bottom: 80px;
+         margin-bottom: 5em;
          overflow: hidden;
          font-family: 'Droid Sans', sans-serif;
          
