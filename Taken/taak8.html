@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>GIP Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="../Img/favicon2.ico">
+    <link href="../Style/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../Style/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+</head>
+<body>
+    <ul class="topnav" id="myTopnav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../taken.html">Taken</a></li>
+        <li><a href="../stage.html">Stage</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+        </li>
+    </ul>
+    <script>
+
+    function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+    </script>
+
+    <div class="fixed-size-container-taak1">
+        <div class="expand-taak1">
+            <h1 class="center">Microsoft Staffhub</h1>
+            <h3 class="taakPagina">Algemeen</h3>
+            <p class="taakPagina">StaffHub is een tool die gebruikt kan worden om de uren op te geven van werknemers, maar je kan er nog veel meer mee doen. Het idee achter StaffHub is dat personeel dat altijd onderweg is naar klanten, hun uren weten zonder dat ze naar het kantoor moeten gaan. De tool geeft zelfs de mogelijk aan personeel om onderling op aanvraag shiften te wisselen of eventueel een private chat te openen met de werkgever of collega's om bepaalde dingen te bespreken.</p>
+            <h3 class="taakPagina">Mogelijkheden en meldingen</h3>
+            <p class="taakPagina">StaffHub biedt niet alleen de mogelijkheid om de uurroosters door te geven aan werknemers. Je kan ook makkelijk uurroosters exporteren en extra berichten per toevoegen per dienst of per dag. Wanneer de uurrooster geëxporteerd wordt krijg je een Excel bestand waarin de uurrooster, uren per werknemer en het totaal werkuren van die periode staat.</p>
+            <h3 class="taakPagina">Onderlinge uren wisseling</h3>
+            <p class="taakPagina">In StaffHub heeft u de mogelijkheid om van uren te wisselen met een collega. In de app gaat u naar "aanvragen" en klikt u op het plusje. Vervolgens kiest u "dienst wisselen of aanbieden". Hier kan u de gewenste dienst die u wilt ruilen tegen een dienst van een andere werknemer. U heeft de mogelijkheid om een reden toe te voegen. Ook kan u zelf een eigen dienst aanbieden aan een ander teamlid.</p>
+
+            <img class="fotoTaak1" src="../Img/plannertaken.JPG" />
+            <p class="centerText">Onze takenlijst op Microsoft Planner</p>
+            <img class="centerImage" src="../Img/plannerbestanden.JPG" />
+            <p class="centerText">Onze bestanden tijdens het werken aan het project</p>
+            <img class="centerImage" src="../Img/SCSH1-Knop-Planning.png" />
+            <p class="centerText">De browser versie van Microsoft StaffHub waar we de diensten regelen</p>
+            <img class="centerImage" src="../Img/04-Diensten.png" />
+            <p class="centerText">Diensten in de Microsoft Staffhub App</p>
+
+            <h3 class="taakPagina">Links</h3>
+            <p class="taakPagina"><a href="https://staffhub.ms/" target="_blank">Website StaffHub</a></p>
+            <p class="taakPagina"><a href="https://jelles-immalle.github.io/" target="_blank">Website Jelle</a></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <i class="fa fa-github fa-3x" aria-hidden="true" style="cursor: pointer;" onclick="window.location = 'https://github.com/WoutP-immalle/woutp-immalle.github.io';"></i>
+    </footer>
+
+</body>
+</html>

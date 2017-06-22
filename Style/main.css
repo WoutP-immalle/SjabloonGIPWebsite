@@ -309,6 +309,16 @@
          
      }
 
+     .centerImage {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .centerText {
+         text-align: center;
+     }
+
 .expand-taak5 {
     width: 750px;
     height: 1200px;
